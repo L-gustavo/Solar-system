@@ -1,3 +1,45 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/aebc1d7fe82b0946c963d3f5cd3a3d46.jpg);
+}
+
+.title {
+  text-align: center;
+  color: white
+}
+
+.containerPlanet {
+  display: flex;
+  align-content: space-around;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+img:hover{
+  width: 120px;
+  opacity: 1.0;
+}
+
+.Missoes {
+  display: flex;
+  flex-flow: row wrap;
+}
+.containerMissoes {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 220px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: aqua;
+  opacity: 0.7;
+  margin: 10px;
+
+}

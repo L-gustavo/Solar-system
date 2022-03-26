@@ -9,11 +9,13 @@ class SolarSystem extends Component {
       <>
         <div data-testid="solar-system" />
         <Title headline="Planetas" />
-        {planets.map((elem) => (
-          <span key={ elem.name }>
-            <PlanetCard planetName={ elem.name } planetImage={ elem.image } />
-          </span>
-        ))}
+        <div className="containerPlanet">
+          {planets.map((elem) => (
+            <span key={ elem.name }>
+              <PlanetCard planetName={ elem.name } planetImage={ elem.image } />
+            </span>
+          ))}
+        </div>
       </>
     );
   }
